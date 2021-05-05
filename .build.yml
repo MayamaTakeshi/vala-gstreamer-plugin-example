@@ -1,0 +1,17 @@
+image: alpine/latest
+packages:
+- vala
+- gstreamer-dev
+- gcc
+- meson
+- ninja
+- glib-dev
+- musl-dev
+- gst-plugins-base-dev
+sources:
+- https://git.sr.ht/~michalr/vala-gstreamer-plugin-example
+tasks:
+- build: |
+    mkdir build && cd build
+    meson ../vala-gstreamer-plugin-example
+    ninja

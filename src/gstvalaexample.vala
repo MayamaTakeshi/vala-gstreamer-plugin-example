@@ -1,5 +1,5 @@
 const Gst.PluginDesc gst_plugin_desc = {
-  1, 18,
+  1, 10,
   "valaexample",
   "Vala Example plugin",
   plugin_init,

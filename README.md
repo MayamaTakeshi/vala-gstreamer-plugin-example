@@ -2,6 +2,8 @@
 
 A boilerplate and an example of how to make a GStreamer plugin in Vala.
 
+[![builds.sr.ht status](https://builds.sr.ht/~michalr/vala-gstreamer-plugin-example.svg)](https://builds.sr.ht/~michalr/vala-gstreamer-plugin-example?)
+
 Currently contains:
 
  * Build system based on Meson,
