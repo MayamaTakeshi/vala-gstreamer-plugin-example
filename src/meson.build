@@ -1,6 +1,7 @@
 gstvalaexample_sources = [
   'gstvalaexample.vala',
   'valafilter.vala',
+  'gst.vapi',
 ]
 
 gstvalaexample_deps = [
